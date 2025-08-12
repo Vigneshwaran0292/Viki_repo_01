@@ -8,7 +8,7 @@ pipeline{
         }
         stage('STAGE2'){
             steps{
-                sh '"c:\\Windows\\System32\\cmd.exe" /c python python.py %X_VALUE% %Y_VALUE%'
+                sh '"c:\\Windows\\System32\\cmd.exe" /c python3 python.py %X_VALUE% %Y_VALUE%'
             }
         }
     }
